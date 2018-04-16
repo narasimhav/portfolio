@@ -1,0 +1,81 @@
+.body{
+	background-image:url('https://mallikcheripally.com/assets/images/main-2x.png');
+	background-color: black;
+	color: white;
+	margin-left: 50px;
+	background-size: 900px 800px;
+	background-position: right;
+	background-repeat: no-repeat;
+
+}
+
+div ul li {
+	list-style-type: none;
+}
+div ul li a {
+	color:white;
+}
+.menu {
+	margin-top: 30px;
+}
+.inner {
+	margin-left: 50px;
+}
+.exp {
+	margin-left: 200px;
+	margin-top: 20px;
+}
+.exp1 {
+	margin-left: 600px;
+}
+.skill:hover{
+  border-radius: 2px;
+cursor: pointer;
+transition: all .3s ease-in-out;
+
+}
+
+.Aviota {
+	background-image: url(images/blur.png);
+	margin-top: 50px;
+	height: 200px;
+}
+ .contact {
+ 	background-image: url(images/door.jpeg);
+ 	background-repeat: no-repeat;
+ 	background-size:750px 400px;
+}
+/*.zoom:hover {
+	padding:3px;
+}*/
+
+
+.face:hover {
+  transform: scale(1.1,1.1);
+  backface-visibility:visible;
+  perspective: 1000px;
+  letter-spacing: 1.5px;
+  box-shadow: 20px; 
+
+}
+
+
+/*
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}*/

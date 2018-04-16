@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Narasimha</title>
+  	<link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+  	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+     <style>
+      .index-container {
+  animation: 1s ease-out 0s 1 slideInFromdown;
+
+}
+
+@keyframes slideInFromdown{
+  100% {
+    transform: translateY(0%);
+  }
+  0% {
+    transform: translateY(100%);
+  }
+}
+
+.navbar {
+  list-style-type: none;
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    background-image: url(images/blur.png);
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+
+}
+.bar {
+  margin-top: 300px;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: -9px;
+    right: 25px;
+    font-size: 35px;
+    margin-left: 5px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 15px;}
+}
+    </style>
+</head>
+<body class="body">
+
+<div style="margin-top: 50px;"></div>
+<div id="mySidenav" class="sidenav">
+  <div style="background-image: linear-gradient(90deg,#03d6e0 0,#04e07b);position:absolute;height:150px;margin-top: -90px;width:300px;">
+    <h3 style="text-align: left;margin-top: 70px;margin-left: 5px;">Narasimha Reddy</h3>
+    <h4 style="text-align: left;margin-left: 5px;">Developer, Designer,Programming</h4>
+  </div>
+  <div class="slide" style="padding:30px;margin-left: -40px;">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a><br>
+  <a href="index.html" class="fa fa-home " style="margin-top: 10px;width: 300px;height:40px;color: white">    Home</a>
+  <a href="skills.html" class="fa fa-star " style="margin-top: 10px;width: 300px;height:40px;color: white">   Skills</a>
+  <a href="Experience.html" class="fa fa-briefcase " style="margin-top: 10px;width: 300px;height:40px;color: white">   Experience</a>
+  <a href="portfolio.html" class="fa fa-user " style="margin-top: 10px;width: 300px;height:40px;color: white">   Portfolio</a>
+  <a href="Contact.html" class="fa fa-phone " style="margin-top: 10px;width: 300px;height:40px;color: white">   Contact</a>
+  </div>
+</div>
+
+<span class="bar" style="font-size:30px;cursor:pointer;padding:45px;margin-left: -35px;" onclick="openNav()">&#9776;</span>
+
+
+
+<div class="index-container">
+
+<div class="inner container">
+  <h1 style="font-size: 42px;word-spacing:3px;margin-left: 45px;margin-top: 60px;">Hi , I am Narasimha Reddy.</h1>
+  <div class="col-md-8" style="font-size:20px;word-spacing:2.5px;letter-spacing: 3px;margin-top: 25px;margin-left: 35px;">I'm a Hyderabad based <span style="color:blue;">Developer</span> and <span style="color:blue;">Designer</span> introducing creative ideas and developing impressive applications. <span style="color:blue;">Click below</span style="color:blue;"> to know more <span style="color:blue;">about me.</span></div>
+</div>
+
+<div class="social-network" style="margin-left: 120px;margin-top: 20px;" >
+  <li style="list-style-type: none;">
+    <a href="https://www.facebook.com/narasimhareddy" rel="noopener" target="_blank" title="Facebook"><i class="fa fa-facebook" style="font-size: 35px;margin-left:30px;margin-top: 55px;color:white;" onmouseover="this.style.color='blue'"; onmouseout="this.style.color='white'"></i></a>
+  
+    <a href="https://www.github.com/narasimhareddy" rel="noopener" target="_blank" title="GitHub"><i class="fa fa-github" style="font-size: 35px;margin-left:50px;margin-top: 55px;color:white;" onmouseover="this.style.color='green'"; onmouseout="this.style.color='white'"></i></a>
+  
+   <a href="https://www.anglelist.com/narasimhareddy" rel="noopener" target="_blank" title="AngleList"><i class="fa fa-angellist" style="font-size: 35px;margin-left:50px;margin-top: 55px;color:white;" onmouseover="this.style.color='yellow'"; onmouseout="this.style.color='white'"></i></a>
+ 
+   <a href="https://www.linkedlist.com/narasimhareddy" rel="noopener" target="_blank" title="LinkedIn"><i class="fa fa-linkedin" style="font-size: 35px;margin-left:50px;margin-top: 55px;color:white;" onmouseover="this.style.color='red'"; onmouseout="this.style.color='white'"></i></a>
+   
+   <a href="https://www.instagram.com/narasimhareddy" rel="noopener" target="_blank" title="Instagram"><i class="fa fa-instagram" style="font-size: 35px;margin-left:50px;margin-top: 55px;color:white;" onmouseover="this.style.color='pink'"; onmouseout="this.style.color='white'"></i></a>
+  </li>
+</div>
+
+  <div>
+    <a class="scroll-me" href="skills.html" >
+      <i class="fa fa-chevron-circle-down" style="font-size: 50px;margin-left: 350px;margin-top: 110px;color:white;"></i>
+    </a>
+  </div>
+</div>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "300px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+</body>
+</html>

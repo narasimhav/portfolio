@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Narasimha</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+    	.skill-container {
+  animation: 2s ease-out 0s 1 slideInFromdown;
+
+}
+
+  @keyframes slideInFromdown{
+  100% {
+    transform: translateY(0%);
+  }
+  0% {
+    transform: translateY(100%);
+  }
+}
+.navbar {
+  list-style-type: none;
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    background-image: url(images/blur.png);
+}
+
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+
+}
+.bar {
+  margin-top: 300px;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: -9px;
+    right: 25px;
+    font-size: 35px;
+    margin-left: 5px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 15px;}
+}
+    </style>
+</head>
+<body style="background-image: url('images/develop.png')">
+<div style="margin-top: 60px;"></div>
+<div id="mySidenav" class="sidenav">
+  <div style="background-image: linear-gradient(90deg,#03d6e0 0,#04e07b);position:absolute;height:150px;margin-top: -90px;width:300px;">
+    <h3 style="text-align: left;margin-top: 70px;margin-left: 5px;">Narasimha Reddy</h3>
+    <h4 style="text-align: left;margin-left: 5px;">Developer, Designer,Programming</h4>
+  </div>
+  <div class="slide" style="padding:30px;margin-left: -40px;">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a><br>
+  <a href="index.html" class="fa fa-home " style="margin-top: 10px;width: 300px;height:40px;color: white">    Home</a>
+  <a href="skills.html" class="fa fa-star " style="margin-top: 10px;width: 300px;height:40px;color: white">   Skills</a>
+  <a href="Experience.html" class="fa fa-briefcase " style="margin-top: 10px;width: 300px;height:40px;color: white">   Experience</a>
+  <a href="portfolio.html" class="fa fa-user " style="margin-top: 10px;width: 300px;height:40px;color: white">   Portfolio</a>
+  <a href="Contact.html" class="fa fa-phone " style="margin-top: 10px;width: 300px;height:40px;color: white">   Contact</a>
+  </div>
+</div>
+
+<span class="bar" style="font-size:30px;cursor:pointer;padding:45px;margin-left: 30px;color:white;margin-top: 50px" onclick="openNav()">&#9776;</span>
+
+
+	<div class="top-navigator" style="margin-left:40px;margin-top:50px;margin-bottom: 20px;">
+		<a href="index.html"  style="color:white;margin-left: 212px;"><button style="border-color:transparent;width:130px;text-align:center;height:38px;border-radius:7px;margin-top:-20px;background-image:url(images/blur.png)" class="fa fa-chevron-left previous-page-box zoom" onmouseover="this.style.background='linear-gradient(to right,#00bfff,#00ff80)'"; onmouseout="this.style.background='url(images/blur.png)'">  Home</button></a>
+
+		<a href="Experience.html"  style="color:white;"><button style="margin-left: 534px;border-radius:7px;text-align:center;width:130px;color:white;border-color:transparent;height:38px;background-image:url(images/blur.png)" class="fa fa-chevron-right previous-page-box zoom" onmouseover="this.style.background='linear-gradient(to left , #00bfff, #00ff80 )'"; onmouseout="this.style.background='url(images/blur.png)'"> Experience </button> </a>
+
+	</div>
+
+	<div class="description" style="background-image: url(images/blur.png);width:800px;margin-top:10px;text-align:center;color:white;padding:45px;font-size:17px;word-spacing:2.5px;letter-spacing:2px;height:120px;margin-left: 250px;">
+		These are few of the skills, I am good at, I am a continuous learner, and the list keeps growing...
+	</div>
+
+<div class="skill-container">
+<div class="skills-list-box" style="color:white;">
+
+	<div class="skill-box face" style="width:380px;border-radius:5px;height: 40px;margin:20px 500px 0 250px;">
+		<div class="skill-name" style="background-image: url(images/blur.png);width:260px;height:38px;text-align:center;padding:7.5px;" onmouseover="angular(this)" onmouseout="ang(this)">HTML 5</div>
+		<div class="skill-value" style="width:120px;margin-top:-38.5px;margin-left:260px;height:38px;text-align:center;background-color: #3be053;padding:7.5px;" onmouseover="angular(this)" onmouseout="ang(this)">90%</div>
+	</div>
+
+	<div class="skill-box face" style="width:400px;height:40px;margin:-42px 500px 0 670px;">
+		<div class="skill-name" style="background-image: url(images/blur.png);width:260px;height:38px;text-align:center;padding:7.5px;" onmouseover="" onmouseout="">CSS 3</div>
+		<div class="skill-value" style="width:120px;margin-top:-38.5px;margin-left:260px;height:38px;text-align:center;background-color: #1e4189;padding:7.5px;" onmouseover="" onmouseout="">90%</div>
+	</div>
+
+	<div class="skill-box face" style="width:380px;height: 40px;margin:20px 500px 0 250px;" onmouseover="this.style.width='20px;'">
+		<div class="skill-name " style="background-image: url(images/blur.png);width:260px;height:38px;text-align:center;padding:7.5px;" onmouseover="" onmouseout="ang(this)" >JAVASCRIPT</div>
+		<div class="skill-value " onmouseover="angular(this)" onmouseout="ang(this)" style="width:120px;margin-top:-38.5px;margin-left:260px;height:38px;text-align:center;background-color: #a4190e;padding:7.5px;">85%</div>
+	</div>
+
+	<div class="skill-box face" style="width:400px;height:40px;margin:-42px 500px 0 670px;">
+		<div class="skill-name " style="background-image: url(images/blur.png);width:260px;height:38px;text-align:center;padding:7.5px;" onmouseover="angular(this)" onmouseout="ang(this)" >JQUERY</div>
+		<div class="skill-value " onmouseover="angular(this)" onmouseout="ang(this)" style="width:120px;margin-top:-38.5px;margin-left:260px;height:38px;text-align:center;background-color: #bc0cf2;padding:7.5px;">80%</div>
+	</div>
+
+	<div class="skill-box face" style="width:380px;height: 40px;	margin:20px 500px 0 250px;">
+		<div class="skill-name " style="background-image: url(images/blur.png);width:260px;height:38px;text-align:center;padding:7.5px;" onmouseover="angular(this)" onmouseout="ang(this)" >ANGULAR JS</div>
+		<div class="skill-value " onmouseover="angular(this)" onmouseout="ang(this)" style="width:120px;margin-top:-38.5px;margin-left:260px;height:38px;text-align:center;background-color: #0cf21f;padding:7.5px;">70%</div>
+	</div>
+
+	<div class="skill-box face" style="width:400px;height:40px;margin:-42px 500px 0 670px;">
+		<div class="skill-name " style="background-image: url(images/blur.png);width:260px;height:38px;text-align:center;padding:7.5px;" onmouseover="angular(this)" onmouseout="ang(this)" >NODE JS</div>
+		<div class="skill-value " onmouseover="angular(this)" onmouseout="ang(this)" style="width:120px;margin-top:-38.5px;margin-left:260px;height:38px;text-align:center;background-color: #15f093;padding:7.5px;">50%</div>
+	</div>
+
+	<div class="skill-box face" style="width:380px;height: 40px;	margin:20px 500px 0 250px;">
+		<div class="skill-name " style="background-image: url(images/blur.png);width:260px;height:38px;text-align:center;padding:7.5px;" onmouseover="angular(this)" onmouseout="ang(this)" >MONGO DB</div>
+		<div class="skill-value " onmouseover="angular(this)" onmouseout="ang(this)" style="width:120px;margin-top:-38.5px;margin-left:260px;height:38px;text-align:center;background-color: #a4190e;padding:7.5px;">55%</div>
+	</div>
+
+	<div class="skill-box face" style="width:400px;height:40px;margin:-42px 500px 0 670px;">
+		<div class="skill-name " style="background-image: url(images/blur.png);width:260px;height:38px;text-align:center;padding:7.5px;" onmouseover="angular(this)" onmouseout="ang(this)" >ES6</div>
+		<div class="skill-value " onmouseover="angular(this)" onmouseout="ang(this)" style="width:120px;margin-top:-38.5px;margin-left:260px;height:38px;text-align:center;background-color: #f0cf15;padding:7.5px;">75%</div>
+		</div>
+
+	<div class="skill-box face" style="width:380px;height: 40px;	margin:20px 500px 0 250px;">
+		<div class="skill-name " style="background-image: url(images/blur.png);width:260px;height:38px;text-align:center;padding:7.5px;" onmouseover="angular(this)" onmouseout="ang(this)" >TYPE SCRIPT</div>
+		<div class="skill-value " onmouseover="angular(this)" onmouseout="ang(this)" style="width:120px;margin-top:-38.5px;margin-left:260px;height:38px;text-align:center;background-color: #15f0d1;padding:7.5px;">75%</div>
+		</div>
+
+	<div class="skill-box face" style="width:400px;height:40px;margin:-42px 500px 0 670px;">
+		<div class="skill-name " style="background-image: url(images/blur.png);width:260px;height:38px;text-align:center;padding:7.5px;" onmouseover="angular(this)" onmouseout="ang(this)" >JAVA</div>
+		<div class="skill-value " onmouseover="angular(this)" onmouseout="ang(this)" style="width:120px;margin-top:-38.5px;margin-left:260px;height:38px;text-align:center;background-color: #89fc0ecc;padding:7.5px;">60%</div>
+		</div>
+
+	<div class="skill-box face" style="width:380px;height: 40px;	margin:20px 500px 0 250px;">
+		<div class="skill-name " style="background-image: url(images/blur.png);width:260px;height:38px;text-align:center;padding:7.5px;" onmouseover="angular(this)" onmouseout="ang(this)" >EXPRESS JS</div>
+		<div class="skill-value " onmouseover="angular(this)" onmouseout="ang(this)" style="width:120px;margin-top:-38.5px;margin-left:260px;height:38px;text-align:center;background-color: #11ddd5cc;padding:7.5px;">85%</div>
+	</div>
+
+	<div class="skill-box face" style="width:400px;height:40px;margin:-42px 500px 0 670px;">
+		<div class="skill-name " style="background-image: url(images/blur.png);width:260px;height:38px;text-align:center;padding:7.5px;" onmouseover="angular(this)" onmouseout="ang(this)" >MATERIALIZE CSS</div>
+		<div class="skill-value " onmouseover="angular(this)" onmouseout="ang(this)" style="width:120px;margin-top:-38.5px;margin-left:260px;height:38px;text-align:center;background-color: #b908fbcc;padding:7.5px;">80%</div>
+		</div>
+
+		<div class="skill-box face" style="width:380px;height: 40px;	margin:20px 500px 0 250px;">
+		<div class="skill-name " style="background-image: url(images/blur.png);width:260px;height:38px;text-align:center;padding:7.5px;" onmouseover="angular(this)" onmouseout="ang(this)" >GITHUB</div>
+		<div class="skill-value " onmouseover="angular(this)" onmouseout="ang(this)" style="width:120px;margin-top:-38.5px;margin-left:260px;height:38px;text-align:center;background-color: red;padding:7.5px;">60%</div>
+		</div>
+
+	<div class="skill-box face" style="width:400px;height:40px;margin:-42px 500px 0 670px;">
+		<div class="skill-name " style="background-image: url(images/blur.png);width:260px;height:38px;text-align:center;padding:7.5px;" onmouseover="angular(this)" onmouseout="ang(this)" >API'S</div>
+		<div class="skill-value " onmouseover="angular(this)" onmouseout="ang(this)" style="width:120px;margin-top:-38.5px;margin-left:260px;height:38px;text-align:center;background-color: #fc08a3;padding:7.5px;">65%</div>
+		</div>
+</div>
+
+
+<div class="description" style="background-image: url(images/blur.png);width:800px;margin-top:30px;text-align:center;color:white;padding:45px;font-size:17px;word-spacing:2.5px;letter-spacing:2px;height:200px;margin-left: 250px;">
+	Do you want me to build amazing something for you? </br></br>
+	<span class="">I AM OPEN FOR HIRE</span><br></br>	
+	<a class="button" href="Contact.html"><button style="border-color:transparent;border-radius:7px;height:40px;width:160px;background-color:#2196f3;color:white;" onmouseover="this.style.background='#0080ff'"; onmouseout="this.style.background='#00bfff'">Contact</button></a>
+</div>
+
+<div class="top-navigator" style="margin-left:40px;margin-top:5px;margin-bottom: 100px;">
+		<a href="index.html"  style="color:white;margin-left: 212px;"><button style="width:130px;border-radius:7px;text-align:center;height:38px;margin-top:10px;background-image:url(images/blur.png);border-color:transparent;" class="fa fa-chevron-left previous-page-box zoom" onmouseover="this.style.background='linear-gradient(to right ,#00bfff,#00ff80)'"; onmouseout="this.style.background='url(images/blur.png)'">  Home</button></a>
+
+		<a href="Experience.html"  style="color:white;"><button style="margin-left: 535px;border-radius:7px;text-align:center;width:130px;color:white;border-color:transparent;height:38px;background-image:url(images/blur.png)" class="fa fa-chevron-right previous-page-box zoom" onmouseover="this.style.background='linear-gradient(to left , #00bfff, #00ff80)'"; onmouseout="this.style.background='url(images/blur.png)'"> Experience </button> </a>
+
+	</div>
+
+
+
+</div>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "300px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+</body>
+</html>

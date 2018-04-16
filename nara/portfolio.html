@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Narasimha</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+     <style>
+    .port-container {
+  animation: 4s ease-out 0s 1 slideInFromdown;
+
+}
+
+@keyframes slideInFromdown{
+  100% {
+    transform: translateY(0%);
+  }
+  0% {
+    transform: translateY(100%);
+  }
+}
+.navbar {
+  list-style-type: none;
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    background-image: url(images/blur.png);
+}
+
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+.bar {
+  margin-top: 300px;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: -9px;
+    right: 25px;
+    font-size: 35px;
+    margin-left: 5px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 15px;}
+}
+</style>
+</head>
+<body style="background-image: url('images/develop.png');margin-left: 50px;">
+<div style="margin-top: 60px;"></div>
+<div id="mySidenav" class="sidenav">
+  <div style="background-image: linear-gradient(90deg,#03d6e0 0,#04e07b);position:absolute;height:150px;margin-top: -90px;width:300px;">
+    <h3 style="text-align: left;margin-top: 70px;margin-left: 5px;">Narasimha Reddy</h3>
+    <h4 style="text-align: left;margin-left: 5px;">Developer, Designer,Programming</h4>
+  </div>
+  <div class="slide" style="padding:30px;margin-left: -40px;">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a><br>
+  <a href="index.html" class="fa fa-home " style="margin-top: 10px;width: 300px;height:40px;color: white">    Home</a>
+  <a href="skills.html" class="fa fa-star " style="margin-top: 10px;width: 300px;height:40px;color: white">   Skills</a>
+  <a href="Experience.html" class="fa fa-briefcase " style="margin-top: 10px;width: 300px;height:40px;color: white">   Experience</a>
+  <a href="portfolio.html" class="fa fa-user " style="margin-top: 10px;width: 300px;height:40px;color: white">   Portfolio</a>
+  <a href="Contact.html" class="fa fa-phone " style="margin-top: 10px;width: 300px;height:40px;color: white">   Contact</a>
+  </div>
+</div>
+
+<span class="bar" style="font-size:30px;cursor:pointer;padding:45px;color:white;margin-left: -15px;" onclick="openNav()">&#9776;</span>
+
+
+<div class="port-container">
+	
+	<div class="top-navigator" style="margin-top: 50px;margin-left: 208px;">
+
+		<a href="Experience.html"  style="color:white;"><button style="border-color:transparent;width:120px;text-align:center;height:38px;border-radius:7px;background-image:url(images/blur.png)" class="fa fa-chevron-left previous-page-box" onmouseover="this.style.background='linear-gradient(to left , #00bfff, #00ff80 )'"; onmouseout="this.style.background='url(images/blur.png)'"> Experience</button></a>
+
+		<a href="Contact.html"  style="color:white;"><button style="text-align:center;margin-left:510px;width:120px;color:white;border-color:transparent;border-radius:7px;height:38px;background-image:url(images/blur.png)" class="fa fa-chevron-right previous-page-box" onmouseover="this.style.background='linear-gradient(to left , #00bfff, #00ff80 )'"; onmouseout="this.style.background='url(images/blur.png)'"> Contact </button> </a>
+
+	</div>
+
+		<div class="Aviota col-md-7 col-md-offset-2" style="color:white;margin-top:20px;width:752px;">
+		<div style="margin-top: 40px;">
+		<h3>SocialDash</h3></br>
+		<p style="width:350px;">SocialDash is a one-stop app template for all the social media accounts with live feed, notificationsand weekly analysis reports.</p>
+		</div>
+
+		<img src="images/socialdash-1x.png" style="height:200px;margin-left: 382px;margin-top: -167px;">
+	</div>
+
+	<div class="Aviota col-md-7 col-md-offset-2" style="margin-top:10px;color:white;width:752px;">
+		<div style="margin-top:30px;">
+		<h3>Weatherion</h3></br>
+		<p style="width:360px;">Weatherion is dynamic weather fetching application with minimalistic interface and beautiful wallpapers which dynamically change according to the weather. Weatherion generates dynamic graph analysis to forecast the next 5 day weather report.</p>
+		</div>
+		<img src="images/weatherion-1x.png" style="height:200px;margin-left: 382px;margin-top: -215px;">
+	</div>
+	<div class="Aviota col-md-7 col-md-offset-2" style="margin-top:10px;color:white;width:752px;">
+		<div style="margin-top:30px;">
+		<h3>Educaterz</h3></br>
+		<p style="width:360px;">Educaterz is an Online Tutorial platform offering free courses to everyone. The application is built using Material design and runs top notch User Interface. Educaterz is built and designed in such a way to scale up and compete with other tutorial platforms.</p>
+		</div>
+		<img src="images/educaterz-1x.png" style="height:200px;margin-left: 382px;margin-top: -215px;">
+	</div>
+	<div class="Aviota col-md-7 col-md-offset-2" style="margin-top:10px;color:white;width:752px;">
+		<div style="margin-top:30px;">
+		<h3>Bingstrap</h3></br>
+		<p style="width:360px;">Bingstrap is a homepage replica of the Bing search engine built on top of a light-weight bootstrapframework with dynamic image loading feature and served over super fast HTTP2 network.</p>
+		</div>
+		<img src="images/bingstrap-1x.png" style="height:200px;margin-left: 382px;margin-top: -176px;">
+	</div>
+	<div class="Aviota col-md-7 col-md-offset-2" style="margin-top:10px;color:white;width:752px;">
+		<div style="margin-top:30px;">
+		<h3>FreshDish</h3></br>
+		<p style="width:360px;">FreshDish is a recipe app template inspired by Google Material Design and perfectly optimized withintuitive user interface and server over HTTP2.</p>
+		</div>
+		<img src="images/freshdish-1x.png" style="height:200px;margin-left: 382px;margin-top: -156px;">
+	</div>
+	<div class="Aviota col-md-7 col-md-offset-2" style="margin-top:10px;color:white;width:752px;">
+		<div style="margin-top:30px;">
+		<h3>Entero</h3></br>
+		<p style="width:360px;">Entero is a personal assistant application built especially for IT employees which generates personalized notification alerts, to search all the important URLs, to search colleague contacts. The app runs with Artificial Intelligence by learning from the User.</p>
+		</div>
+		<img src="images/entero-1x.png" style="height:200px;margin-left: 382px;margin-top: -215px;">
+	</div>
+	<div class="Aviota col-md-7 col-md-offset-2" style="margin-top:10px;color:white;width:752px;">
+		<div style="margin-top:30px;">
+		<h3>Awesome Mallik</h3></br>
+		<p style="width:360px;">Awesome Mallik is a blogging app with a beautiful and responsive UI and a secure, easy-to-use backendto write and edit articles.</p>
+		</div>
+		<img src="images/awesome-mallik-1x.png" style="height:200px;margin-left: 382px;margin-top: -156px;">
+	</div>
+	<div class="Aviota col-md-7 col-md-offset-2" style="margin-top:10px;color:white;width:752px;">
+		<div style="margin-top:30px;">
+		<h3>Springular</h3></br>
+		<p style="width:360px;">Springular is a online tutoring concept application built on Spring with light-weight components and high security tolerance for break-ins. Springular delivers online classes on building applications with Spring MVC and Angular.</p>
+		</div>
+		<img src="images/springular-1x.png" style="height:200px;margin-left: 382px;margin-top: -215px;">
+	</div>
+	
+	<div class="bottom-navigator" style="margin-top: 1710px;margin-left: 206px;margin-bottom:50px;">
+
+		<a href="Experience.html"  style="color:white;"><button style="border-color:transparent;width:120px;text-align:center;height:38px;border-radius:7px;background-image:url(images/blur.png)" class="fa fa-chevron-left previous-page-box" onmouseover="this.style.background='linear-gradient(to left , #00bfff, #00ff80 )'"; onmouseout="this.style.background='url(images/blur.png)'"> Experience</button></a>
+
+		<a href="Contact.html"  style="color:white;"><button style="text-align:center;margin-left:510px;width:120px;color:white;border-color:transparent;height:38px;border-radius:7px;background-image:url(images/blur.png)" class="fa fa-chevron-right previous-page-box" onmouseover="this.style.background='linear-gradient(to left , #00bfff, #00ff80 )'"; onmouseout="this.style.background='url(images/blur.png)'"> Contact </button> </a>
+
+	</div>
+</div>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "300px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+</body>
+</html>

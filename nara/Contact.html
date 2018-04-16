@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Narasimha</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+     <style>
+    .cont-container {
+  animation: 2s ease-out 0s 1 slideInFromup;
+
+}
+
+@keyframes slideInFromup{
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+.navbar {
+  list-style-type: none;
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    background-image: url(images/blur.png);
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+.bar {
+  margin-top: 300px;
+}
+
+
+.sidenav .closebtn {
+    position: absolute;
+    top: -9px;
+    right: 25px;
+    font-size: 35px;
+    margin-left: 5px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 15px;}
+}
+
+</style>
+</head>
+
+<body style="background-image: url('images/develop.png');margin-left: 50px;">
+<div style="margin-top: 60px;"></div>
+<div id="mySidenav" class="sidenav">
+  <div style="background-image: linear-gradient(90deg,#03d6e0 0,#04e07b);position:absolute;height:150px;margin-top: -90px;width:300px;">
+    <h3 style="text-align: left;margin-top: 70px;margin-left: 5px;">Narasimha Reddy</h3>
+    <h4 style="text-align: left;margin-left: 5px;">Developer, Designer,Programming</h4>
+  </div>
+  <div class="slide" style="padding:30px;margin-left: -40px;">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a><br>
+  <a href="index.html" class="fa fa-home " style="margin-top: 10px;width: 300px;height:40px;color: white">    Home</a>
+  <a href="skills.html" class="fa fa-star " style="margin-top: 10px;width: 300px;height:40px;color: white">   Skills</a>
+  <a href="Experience.html" class="fa fa-briefcase " style="margin-top: 10px;width: 300px;height:40px;color: white">   Experience</a>
+  <a href="portfolio.html" class="fa fa-user " style="margin-top: 10px;width: 300px;height:40px;color: white">   Portfolio</a>
+  <a href="Contact.html" class="fa fa-phone " style="margin-top: 10px;width: 300px;height:40px;color: white">   Contact</a>
+  </div>
+</div>
+
+<span class="bar" style="font-size:30px;cursor:pointer;padding:45px;color: white;margin-left: -20px;" onclick="openNav()">&#9776;</span>
+
+
+<div class="cont-container">
+	
+	<div class="top-navigator" style="margin-top: 45px;margin-left: 215px;">
+
+		<a href="portfolio.html"  style="color:white;"><button style="border-color:transparent;border-radius:7px;width:120px;text-align:center;height:38px;background-image:url(images/blur.png)" class="fa fa-chevron-left previous-page-box" onmouseover="this.style.background='linear-gradient(to left , #00bfff, #00ff80 )'"; onmouseout="this.style.background='url(images/blur.png)'"> portfolio</button></a>
+
+		<a href="index.html"  style="color:white;"><button style="text-align:center;border-radius:7px;margin-left:505px;width:120px;color:white;border-color:transparent;height:38px;background-image:url(images/blur.png)" class="fa fa-chevron-right previous-page-box" onmouseover="this.style.background='linear-gradient(to left , #00bfff, #00ff80 )'"; onmouseout="this.style.background='url(images/blur.png)'"> Home </button> </a>
+	</div>
+
+	<div class="contact" style="width:760px;margin-top:25px;margin-left:215px;height:300px;font-size:20px;text-align: center;color:white;">
+		<button style="color:white;width:260px;height:42px;text-align:center;margin-top:100px;border-radius:7px;border-color:transparent;background-color:#4cf241;">I AM OPEN FOR HIRE</button></br></br>
+		<p style="margin-top:150px;">Need a really cool website for your business or yourself?</p>
+		<p>Or would you love to learn programming or designing? </p>
+		<a href="#" style="text-decoration: underline;">contact@narasimhareddy.com</a>
+	</div>
+</div>
+
+</div>
+
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "300px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+
+</body>
+</html>
